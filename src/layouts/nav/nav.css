@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../src/assets/fonts/Formula1.ttf") format("truetype");
+}
+nav {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  background-color: #222;
+  font-size: 1rem;
+}
+nav .route {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-block: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+nav .route:hover {
+  background-color: #f03030;
+}
+nav .route.active {
+  background-color: #f03030;
+}/*# sourceMappingURL=nav.css.map */

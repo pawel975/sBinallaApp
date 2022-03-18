@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../src/assets/fonts/Formula1.ttf") format("truetype");
+}
+#main-home {
+  font-size: 1.875rem;
+  color: #f03030;
+  font-family: "Formula1", serif;
+}/*# sourceMappingURL=home.css.map */

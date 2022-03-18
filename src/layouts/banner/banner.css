@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../src/assets/fonts/Formula1.ttf") format("truetype");
+}
+#main-banner {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+#main-banner img#bannerBackground {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+#main-banner img#logo {
+  height: 6rem;
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}/*# sourceMappingURL=banner.css.map */
