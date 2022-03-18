@@ -8,7 +8,6 @@ import Driver from "../../pages/driver/Driver";
 import Map from "../../pages/map/Map";
 import Records from "../../pages/records/Records";
 
-
 const Main = () => {
    
    return (
