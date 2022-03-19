@@ -85,6 +85,21 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/*****************/
+/* Global styles */
+/*****************/
+h1 {
+  font-size: 1.5rem;
+  color: #f03030;
+  font-family: "Formula1", serif;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #f03030;
+  font-family: "Formula1", serif;
+}
+
 /***************/
 /* App styling */
 /***************/

@@ -1,0 +1,15 @@
+@use '../../variables';
+
+#calendar-main {
+
+    header {
+        margin-bottom: 2rem;
+    }
+
+    #upcoming-races-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1rem;
+    }
+}
