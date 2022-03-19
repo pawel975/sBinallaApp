@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../src/assets/fonts/Formula1.ttf") format("truetype");
+}
+#upcoming-race-card {
+  padding: 0.5rem 1rem;
+  width: 22rem;
+  border-radius: 1rem;
+  background-color: #222;
+  color: whitesmoke;
+}
+#upcoming-race-card header {
+  margin: 0;
+}
+#upcoming-race-card p {
+  font-size: 0.875rem;
+}
+#upcoming-race-card hr {
+  border: none;
+  border-bottom: 1px solid #555;
+}
+#upcoming-race-card img {
+  margin-top: 1rem;
+}/*# sourceMappingURL=upcomingRace.css.map */

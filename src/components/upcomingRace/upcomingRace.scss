@@ -1,0 +1,26 @@
+@use '../../variables';
+
+#upcoming-race-card {
+    padding: 0.5rem 1rem;
+    width: 22rem;
+    border-radius: 1rem;
+    background-color: variables.$clr-VeryDark;
+    color: variables.$clr-Light;
+
+    header {
+        margin: 0;
+    }
+
+    p {
+        font-size: variables.$fs-200;
+    }
+
+    hr {
+        border: none;
+        border-bottom: 1px solid #555
+    };
+
+    img {
+        margin-top: 1rem;
+    }
+}

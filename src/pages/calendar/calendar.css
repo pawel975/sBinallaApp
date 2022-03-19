@@ -1,1 +1,14 @@
-/*# sourceMappingURL=calendar.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../src/assets/fonts/Formula1.ttf") format("truetype");
+}
+#calendar-main header {
+  margin-bottom: 2rem;
+}
+#calendar-main #upcoming-races-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}/*# sourceMappingURL=calendar.css.map */

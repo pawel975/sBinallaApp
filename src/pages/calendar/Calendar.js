@@ -1,6 +1,7 @@
 import React from 'react';
 import './calendar.scss';
 import dataJSON from '../../test.json'
+import UpcomingRace from '../../components/upcomingRace/UpcomingRace';
 
 const Calendar = () => {
 
@@ -18,14 +19,28 @@ const Calendar = () => {
     // fetchData()
 
     const data = dataJSON;
-    console.log(data)
+
+    const upcomingRaces = data.map(race => (
+        <UpcomingRace 
+            raceName = {race.raceName}
+            dateOfRace = {race.dateOfRace}
+            countryName = {race.countryName}
+            trackName = {race.trackName}
+            trackId = {race.trackId}
+            countryId = {race.countryId}
+            season = {race.season}
+        />
+    ))
 
     return(
         <>
-            <section>
+            <section id='calendar-main'>
                 <header>
                     <h1>Upcoming races</h1>
                 </header>
+                <div id='upcoming-races-container'>
+                    {upcomingRaces}
+                </div>
             </section>
         </>
     )

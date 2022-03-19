@@ -18,7 +18,7 @@ nav .route {
   text-align: center;
   text-decoration: none;
   color: whitesmoke;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 nav .route:hover {
   background-color: #f03030;
