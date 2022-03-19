@@ -3,9 +3,18 @@ import './calendar.scss';
 
 const Calendar = () => {
 
+    const fetchData = () => {
+
+        const baseURL = ''; 
+    }
+
     return(
         <>
-            <div>Calendar page</div>
+            <section>
+                <header>
+                    <h1>Upcoming races</h1>
+                </header>
+            </section>
         </>
     )
 }
