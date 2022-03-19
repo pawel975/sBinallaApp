@@ -81,6 +81,16 @@ select {
   }
 }
 
+/*****************/
+/* Global styles */
+/*****************/
+
+h1 {
+  font-size: variables.$fs-400;
+  color: variables.$clr-Contrast;
+  font-family: variables.$ff-Headers;
+}
+
 /***************/
 /* App styling */
 /***************/

@@ -1,0 +1,65 @@
+[
+    {
+        "season":"1",
+        "trackId":"23",
+        "trackName":"Jeddah Street Circuit",
+        "countryId":"152",
+        "countryName":"Saudi Arabia",
+        "raceName":"Saudi Arabian GP",
+        "dateOfRace":"2022-03-19 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"5",
+        "trackName":"Spa-Francorchamps",
+        "countryId":"17",
+        "countryName":"Belgium",
+        "raceName":"Belgian GP",
+        "dateOfRace":"2022-03-26 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"18",
+        "trackName":"Monza",
+        "countryId":"84",
+        "countryName":"Italy",
+        "raceName":"Italian GP",
+        "dateOfRace":"2022-04-02 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"15",
+        "trackName":"Silverstone",
+        "countryId":"185",
+        "countryName":"United Kingdom",
+        "raceName":"British GP",
+        "dateOfRace":"2022-04-09 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"4",
+        "trackName":"Aut\u00f3dromo Hermanos Rodr\u00edguez",
+        "countryId":"111",
+        "countryName":"Mexico",
+        "raceName":"Mexico GP",
+        "dateOfRace":"2022-04-16 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"7",
+        "trackName":"Imola",
+        "countryId":"150",
+        "countryName":"San Marino",
+        "raceName":"Emilia Romagna GP",
+        "dateOfRace":"2022-04-23 19:00:00"
+    },
+    {
+        "season":"1",
+        "trackId":"22",
+        "trackName":"Interlagos",
+        "countryId":"24",
+        "countryName":"Brazil",
+        "raceName":"Brazilian GP",
+        "dateOfRace":"2022-04-30 19:00:00"
+    }
+]
