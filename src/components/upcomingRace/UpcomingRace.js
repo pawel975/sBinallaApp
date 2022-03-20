@@ -2,16 +2,8 @@ import React from 'react';
 import FlagIcon from '../flagIcon/FlagIcon';
 import '../upcomingRace/upcomingRace.scss';
 
-const UpcomingRace = (props) => {
-
-    const raceName = props.raceName;
-    const countryName = props.countryName;
-    const trackName = props.trackName;
-    const dateOfRace = props.dateOfRace;
-    const trackId = props.trackId
-    const countryId = props.countryId
-    const season = props.season
-
+const UpcomingRace = ({raceName, countryName, trackName, dateOfRace, trackId, countryId, season}) => {
+    
     return(
         <>
             <section className="upcoming-race-card">

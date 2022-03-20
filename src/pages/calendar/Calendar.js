@@ -34,11 +34,11 @@ const Calendar = () => {
 
     return(
         <>
-            <section id='calendar-main'>
-                <header>
+            <section className='calendar-main'>
+                <header className='calendar-header'>
                     <h1>Upcoming races</h1>
                 </header>
-                <div id='upcoming-races-container'>
+                <div className='upcoming-races-container'>
                     {upcomingRaces}
                 </div>
             </section>

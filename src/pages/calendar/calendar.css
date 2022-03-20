@@ -3,10 +3,10 @@
   font-family: "Formula1";
   src: url("../public/assets/fonts/Formula1.ttf") format("truetype");
 }
-#calendar-main header {
+.calendar-main .calendar-header {
   margin-bottom: 2rem;
 }
-#calendar-main #upcoming-races-container {
+.calendar-main .upcoming-races-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -1,12 +1,12 @@
 @use '../../variables';
 
-#calendar-main {
+.calendar-main {
 
-    header {
+    .calendar-header {
         margin-bottom: 2rem;
     }
 
-    #upcoming-races-container {
+    .upcoming-races-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
