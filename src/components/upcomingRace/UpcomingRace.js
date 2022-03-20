@@ -1,5 +1,6 @@
 import React from 'react';
-import '../upcomingRace/upcomingRace.scss'
+import FlagIcon from '../flagIcon/FlagIcon';
+import '../upcomingRace/upcomingRace.scss';
 
 const UpcomingRace = (props) => {
 
@@ -13,15 +14,23 @@ const UpcomingRace = (props) => {
 
     return(
         <>
-            <section id="upcoming-race-card">
+            <section className="upcoming-race-card">
+
                 <header>
                     <h2>{raceName}</h2>
                     <p>{dateOfRace}</p>
                 </header>
+
                 <hr></hr>
-                <p>{countryName}</p>
-                <p>{trackName}</p>
-                <img src={`/assets/img/tracks/${trackId}.png`} alt="track"/>
+
+                <span>
+                    <FlagIcon countryName={countryName}/> {countryName}
+                </span>
+
+                <span>{trackName}</span>
+
+                <img className='track-img' src={`/assets/img/tracks/${trackId}.png`} alt="track"/>
+                
             </section>
         </>
     )
