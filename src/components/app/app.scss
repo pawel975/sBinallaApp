@@ -97,6 +97,29 @@ h2 {
   font-family: variables.$ff-Headers;
 }
 
+// scroll bar 
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.875rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: variables.$clr-VeryDark;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
 /***************/
 /* App styling */
 /***************/

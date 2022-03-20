@@ -100,6 +100,27 @@ h2 {
   font-family: "Formula1", serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 0.875rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
 /***************/
 /* App styling */
 /***************/
@@ -114,4 +135,4 @@ h2 {
   margin-block: 2rem;
   width: 100%;
   padding-bottom: 6em;
-}/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=App.css.map */
