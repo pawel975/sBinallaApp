@@ -5,18 +5,16 @@ import UpcomingRace from '../../components/upcomingRace/UpcomingRace';
 
 const Calendar = () => {
 
-    // const fetchData = () => {
+    const fetchData = () => {
 
-    //     const baseURL = process.env.REACT_APP_UPCOMING_CHANGES;
-    //     fetch(baseURL, {
-    //         mode: 'no-cors'
-    //     })
-    //     .then(res => res.json())
-    //     .then(data => console.log(data))
-    //     .catch(error => console.error(error));
-    // }
+        const baseURL = process.env.REACT_APP_UPCOMING_CHANGES;
+        fetch(baseURL)
+        .then(res => res.json())
+        .then(data => console.log(data))
+        .catch(error => console.error(error));
+    }
 
-    // fetchData()
+    fetchData()
 
     const data = dataJSON;
 

@@ -1,5 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
-@font-face {
-  font-family: "Formula1";
-  src: url("../public/assets/fonts/Formula1.ttf") format("truetype");
-}/*# sourceMappingURL=home.css.map */
+@use '../../variables';
+.home-main {
+  outline: 1px solid red;
+  margin-bottom: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-main .home-yt-video {
+  outline: 1px solid blue;
+  padding: 1em;
+  width: 65%;
+}
+
+.home-main .home-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: 1px solid violet;
+  padding: 1em;
+  width: 35%;
+}
+
+.home-main .home-info .info-last-race-cnt h2 {
+  margin-bottom: .8em;
+}
+
+.home-main .home-info .info-next-race-cnt h2 {
+  margin-top: 1em;
+  margin-bottom: .8em;
+}
+/*# sourceMappingURL=home.css.map */

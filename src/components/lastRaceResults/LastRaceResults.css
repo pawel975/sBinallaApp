@@ -1,0 +1,9 @@
+@use "../../variables.scss";
+.last-race-results-cnt {
+  outline: 1px solid red;
+}
+
+.last-race-results-cnt .results-table {
+  font-size: 12px;
+}
+/*# sourceMappingURL=LastRaceResults.css.map */

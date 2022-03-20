@@ -1,0 +1,155 @@
+[
+    {
+        "playerId": "11",
+        "playerName": "Miko",
+        "position": "1",
+        "grid": "10", 
+        "stops": "2",
+        "bestLap": "1:46.267",
+        "time": "58:18.431"
+    },
+    {
+        "playerId": "14",
+        "playerName": "Sixty",
+        "position": "2",
+        "grid": "11",
+        "stops": "1",
+        "bestLap": "1:47.947",
+        "time": "+4.294"
+    },
+    {
+        "playerId": "5",
+        "playerName": "Gianfruu",
+        "position": "3",
+        "grid": "1",
+        "stops": "2",
+        "bestLap": "1:47.519",
+        "time": "+6.722"
+    },
+    {
+        "playerId": "1",
+        "playerName": "Anubis",
+        "position": "4",
+        "grid": "8",
+        "stops": "1",
+        "bestLap": "1:48.268",
+        "time": "+9.658"
+    },
+    {
+        "playerId": "12",
+        "playerName": "Saucy",
+        "position": "5",
+        "grid": "5",
+        "stops": "3",
+        "bestLap": "1:47.787",
+        "time": "+10.259"
+    },
+    {
+        "playerId": "10",
+        "playerName": "Microsoft Powerpoint",
+        "position": "6",
+        "grid": "6",
+        "stops": "1",
+        "bestLap": "1:48.601",
+        "time": "+11.013"
+    },
+    {
+        "playerId": "16",
+        "playerName": "Siemasiema",
+        "position": "7",
+        "grid": "9",
+        "stops": "1",
+        "bestLap": "1:49.551",
+        "time": "+13.434"
+    },
+    {
+        "playerId": "3",
+        "playerName": "Dziewicki",
+        "position": "8",
+        "grid": "3",
+        "stops": "3",
+        "bestLap": "1:47.767",
+        "time": "+14.511"
+    },
+    {
+        "playerId": "17",
+        "playerName": "Dubrav",
+        "position": "9",
+        "grid": "15",
+        "stops": "1",
+        "bestLap": "1:48.030",
+        "time": "+18.583"
+    },
+    {
+        "playerId": "4",
+        "playerName": "Ernestito",
+        "position": "10",
+        "grid": "14",
+        "stops": "2",
+        "bestLap": "1:51.478",
+        "time": "+19.797"
+    },
+    {
+        "playerId": "7",
+        "playerName": "Hamptitus",
+        "position": "11",
+        "grid": "12",
+        "stops": "3",
+        "bestLap": "1:49.664",
+        "time": "+21.290"
+    },
+    {
+        "playerId": "15",
+        "playerName": "Zdzislaw Petarda",
+        "position": "12",
+        "grid": "16",
+        "stops": "2",
+        "bestLap": "1:49.217",
+        "time": "+25.744"
+    },
+    {
+        "playerId": "8",
+        "playerName": "Kouros",
+        "position": "13",
+        "grid": "4",
+        "stops": "2",
+        "bestLap": "1:48.850",
+        "time": "DNF"
+    },
+    {
+        "playerId": "18",
+        "playerName": "Jaro",
+        "position": "14",
+        "grid": "7",
+        "stops": "1",
+        "bestLap": "1:48.435",
+        "time": "DNF"
+    },
+    {
+        "playerId": "9",
+        "playerName": "Mexicanu",
+        "position": "15",
+        "grid": "2",
+        "stops": "1",
+        "bestLap": "1:48.984",
+        "time": "DNF"
+    },
+    {
+        "playerId": "6",
+        "playerName": "G_Claudz",
+        "position": "16",
+        "grid": "13",
+        "stops": "0",
+        "bestLap": "1:52.853",
+        "time": "DNF"
+    },
+    {
+        "playerId": "13",
+        "playerName": "Rebel",
+        "position": "17",
+        "grid": "17",
+        "stops": "0",
+        "bestLap": "1:53.359",
+        "time": "DNF"
+    }
+]

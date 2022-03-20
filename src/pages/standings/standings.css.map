@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"standings.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "standings.scss"
+    ],
+    "names": [],
+    "file": "standings.css"
+}

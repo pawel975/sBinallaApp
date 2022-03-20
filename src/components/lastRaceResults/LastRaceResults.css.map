@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,IAAI,CAAJ,sBAAI;AAEJ,AAAA,sBAAsB,CAAA;EAClB,OAAO,EAAC,aAAa;CAsBxB;;AAvBD,AAII,sBAJkB,CAIlB,cAAc,CAAA;EAGV,SAAS,EAAE,IAAI;CAelB",
+    "sources": [
+        "LastRaceResults.scss"
+    ],
+    "names": [],
+    "file": "LastRaceResults.css"
+}

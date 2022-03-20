@@ -1,5 +1,35 @@
 @use '../../variables';
 
-#main-home {
-    
+.home-main{
+    outline:1px solid red;
+    margin-bottom: 5em;
+    display: flex;
+
+    .home-yt-video{
+        outline:1px solid blue;
+        padding: 1em;
+        width:65%;
+    }
+
+    .home-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline:1px solid violet;
+        padding:1em;
+        width:35%;
+
+        .info-last-race-cnt{
+            h2{
+                margin-bottom: .8em;
+            }
+        }
+
+        .info-next-race-cnt{
+            h2{
+                margin-top:1em;
+                margin-bottom: .8em;
+            }
+        }
+    }
 }
