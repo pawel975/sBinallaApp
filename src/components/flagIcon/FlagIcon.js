@@ -2,9 +2,8 @@ import React from "react";
 import countryJSON from '../../countries.json';
 
 // Returns flag if country name exist
-const FlagIcon = (props) => {
+const FlagIcon = ({countryName}) => {
     
-    const countryName = props.countryName;
     let countrySymbol = "";
 
     countryJSON.forEach(country => {
