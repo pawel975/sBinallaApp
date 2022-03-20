@@ -1,11 +1,12 @@
-@use '../../variables';
-#calendar-main header {
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Mono&display=swap");
+@font-face {
+  font-family: "Formula1";
+  src: url("../public/assets/fonts/Formula1.ttf") format("truetype");
+}
+.calendar-main .calendar-header {
   margin-bottom: 2rem;
 }
-
-#calendar-main #upcoming-races-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.calendar-main .upcoming-races-container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;

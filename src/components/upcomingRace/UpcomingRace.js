@@ -1,27 +1,30 @@
 import React from 'react';
-import '../upcomingRace/upcomingRace.scss'
+import '../upcomingRace/upcomingRace.scss';
+import FlagIcon from '../flagIcon/FlagIcon';
+import { FaFlagCheckered } from 'react-icons/fa';
 
-const UpcomingRace = (props) => {
-
-    const raceName = props.raceName;
-    const countryName = props.countryName;
-    const trackName = props.trackName;
-    const dateOfRace = props.dateOfRace;
-    const trackId = props.trackId
-    const countryId = props.countryId
-    const season = props.season
-
+const UpcomingRace = ({raceName, countryName, trackName, dateOfRace, trackId, countryId, season}) => {
+    
     return(
         <>
-            <section id="upcoming-race-card">
+            <section className="upcoming-race-card">
                 <header>
                     <h2>{raceName}</h2>
                     <p>{dateOfRace}</p>
                 </header>
+
                 <hr></hr>
-                <p>{countryName}</p>
-                <p>{trackName}</p>
-                <img src={`/assets/img/tracks/${trackId}.png`} alt="track"/>
+
+                <span>
+                    <FlagIcon countryName={countryName}/> {countryName}
+                </span>
+
+                <span>
+                    <FaFlagCheckered/> {trackName}
+                </span>
+
+                <img className='track-img' src={`/assets/img/tracks/${trackId}.png`} alt="track"/>
+                
             </section>
         </>
     )

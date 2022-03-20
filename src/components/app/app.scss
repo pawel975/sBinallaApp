@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -97,10 +101,34 @@ h2 {
   font-family: variables.$ff-Headers;
 }
 
+<<<<<<< HEAD
 h3{
   font-size: variables.$fs-200;
   color: variables.$clr-Contrast;
   font-family: variables.$ff-Headers;
+=======
+// scroll bar 
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.875rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: variables.$clr-VeryDark;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+>>>>>>> main
 }
 
 /***************/
@@ -119,7 +147,7 @@ h3{
         margin-block: 2rem;
         width:100%;
         // outline: 1px solid blue;
-        padding-bottom: 6em;
+        padding-bottom: 8em;
     }
 }
 

@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -100,6 +104,27 @@ h2 {
   font-family: "Formula1", serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 0.875rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
 /***************/
 /* App styling */
 /***************/
@@ -113,5 +138,5 @@ h2 {
 #page-wrapper #content-wrapper {
   margin-block: 2rem;
   width: 100%;
-  padding-bottom: 6em;
-}/*# sourceMappingURL=app.css.map */
+  padding-bottom: 8em;
+}/*# sourceMappingURL=App.css.map */

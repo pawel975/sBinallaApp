@@ -1,18 +1,19 @@
 @use '../../variables';
 
-#upcoming-race-card {
+.upcoming-race-card {
     padding: 0.5rem 1rem;
     width: 22rem;
     border-radius: 1rem;
     background-color: variables.$clr-VeryDark;
     color: variables.$clr-Light;
 
-    header {
-        margin: 0;
-    }
+    // header {
+    //     margin: 0;
+    // }
 
-    p {
+    span {
         font-size: variables.$fs-200;
+        display: block;
     }
 
     hr {
@@ -20,7 +21,15 @@
         border-bottom: 1px solid #555
     };
 
-    img {
+    .track-img {
         margin-top: 1rem;
     }
+
+    .flag-icon {
+        display: inline;
+        width: 1rem;
+        aspect-ratio: 4/3;
+    }
+
+    
 }
