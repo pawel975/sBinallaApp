@@ -20,8 +20,9 @@ const Calendar = () => {
 
     const data = dataJSON;
 
-    const upcomingRaces = data.map(race => (
+    const upcomingRaces = data.map((race, index) => (
         <UpcomingRace 
+            key = {index}
             raceName = {race.raceName}
             dateOfRace = {race.dateOfRace}
             countryName = {race.countryName}
