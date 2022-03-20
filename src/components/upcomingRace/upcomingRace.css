@@ -3,23 +3,29 @@
   font-family: "Formula1";
   src: url("../public/assets/fonts/Formula1.ttf") format("truetype");
 }
-#upcoming-race-card {
+.upcoming-race-card {
   padding: 0.5rem 1rem;
   width: 22rem;
   border-radius: 1rem;
   background-color: #222;
   color: whitesmoke;
 }
-#upcoming-race-card header {
+.upcoming-race-card header {
   margin: 0;
 }
-#upcoming-race-card p {
+.upcoming-race-card span {
   font-size: 0.875rem;
+  display: block;
 }
-#upcoming-race-card hr {
+.upcoming-race-card hr {
   border: none;
   border-bottom: 1px solid #555;
 }
-#upcoming-race-card img {
+.upcoming-race-card .track-img {
   margin-top: 1rem;
+}
+.upcoming-race-card .flag-icon {
+  display: inline;
+  width: 1rem;
+  aspect-ratio: 4/3;
 }/*# sourceMappingURL=upcomingRace.css.map */
